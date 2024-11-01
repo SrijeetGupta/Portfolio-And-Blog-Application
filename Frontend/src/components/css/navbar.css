@@ -1,0 +1,37 @@
+
+#navbar{
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    margin:1%;
+    
+     
+}
+
+#navbar>div>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#navbar>div>ul>li{
+    display: inline;
+}
+
+
+
+.link{
+    font-style: oblique;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.activelink{
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+    font-weight: 900;
+    letter-spacing: 2px;
+    
+}

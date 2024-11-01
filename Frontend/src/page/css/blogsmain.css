@@ -1,0 +1,38 @@
+#blogsmain{
+   display: block;
+}
+#category{
+    justify-items: center;
+    padding-bottom: 1%;
+}
+#blogContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#writer{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+#writer>button{
+    background-color: gray;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 10% ;
+    align-content: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 850px) {
+  #blogContainer{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+}
+}
+
+
+
